@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry moster</title>
+    <!-- Css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Eczar&family=Merriweather&family=Texturina&display=swap');
+    </style>
+
+</head>
+
+<body>
+
+
+    <header class="container">
+        <main class="  d-flex  align-items-center justify-content-between">
+            <div>
+                <img style="width: 100px;border-radius: 10px;" src="images/logo.png"
+                    alt="">
+            </div>
+            <div class="navItem d-flex ">
+                <h5>Home</h5>
+                <h5>About</h5>
+                <h5>Recipes</h5>
+                <h5>Blog</h5>
+            </div>
+        </main>
+        <!-- search part -->
+        <section class="searchBar ">
+            <nav class="navbar-light">
+                <div class=" container-fluid justify-content-center">
+                    <section class="d-flex justify-content-center">
+                        <input id="searchBox" class="  me-2" type="search" name="" placeholder="Search Your food"
+                            aria-label="Search">
+                        <button onClick="mealSearch()" class="btn bg-danger" type="submit">Search</button>
+                    </section>
+                </div>
+            </nav>
+        </section>
+
+
+        <section class="full-Description " id="full-Description">
+            <div class="row ">
+                <div class="col-5 imageAnd-name text-center" id="imageAnd-name">
+
+                </div>
+                <div class="col-7  Ingredient">
+                    <h3>Ingredient:</h3>
+                    <ul id="IngredientList">
+
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+    </header>
+
+
+    <section class="container warning text-center mt-5 text-warning">
+        <h3 id="message1">Enter a meal name!</h3>
+        <h3 id="message2">No meals found!!</h3>
+    </section>
+
+
+
+
+    <section class="container searchItems  " id="searchItems">
+
+
+
+    </section>
+
+
+
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- my JavaScript link -->
+    <script src="monster.js"></script>
+
+</body>
+
+</html>
