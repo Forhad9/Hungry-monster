@@ -89,10 +89,10 @@ header{
     font-family: 'Texturina', serif;
  }
  /*  */
- #warning1{
+ #message1{
      display:none;
  }
- #warning2{
+ #message2{
      display:none;
  }
 
